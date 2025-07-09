@@ -1,0 +1,39 @@
+.contact-section {
+  background-color: #1f1f1f;
+  color: white;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.contact-section a {
+  color: #00ffff;
+  text-decoration: none;
+  margin: 0 10px;
+  transition: color 0.3s;
+}
+
+.contact-section a:hover {
+  color: #00dddd;
+}
+
+.social-links {
+  margin-top: 1rem;
+}
+@media (max-width: 768px) {
+  .hero-content h1 {
+    font-size: 1.8rem;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .theme-toggle-switch {
+    margin-top: 1rem;
+  }
+
+  .card {
+    margin-bottom: 1rem;
+  }
+}
