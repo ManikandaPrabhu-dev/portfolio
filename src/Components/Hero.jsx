@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <section id="hero" className="hero">
       <div className="hero-content">
-        <img className='hero-img' src="./public/myimage.jpg" alt="MY IMAGE" />
+        <img className='hero-img' src="./profile.jpg" alt="" />
         <h1>Hello, I'm Manikandaprabhu</h1>
         <p>Recent IT graduate passionate about building responsive and dynamic web applications.</p>
         <a href="#contact" className="hero-button">Let's Connect</a>
