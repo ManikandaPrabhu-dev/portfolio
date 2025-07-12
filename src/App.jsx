@@ -5,6 +5,7 @@ import Hero from "./Components/Hero.jsx";
 import About from "./Components/About.jsx";
 import Projects from "./Components/Projects.jsx";
 import Contact from "./Components/Contact.jsx";
+import '@fortawesome/fontawesome-free/css/all.min.css';
 
 function App() {
   const [darkMode, setDarkMode] = useState(true);

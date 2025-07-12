@@ -8,9 +8,13 @@ const Contact = () => {
       <p>Email: <a href="mailto:manikandaprabhu3002@gmail.com">manikandaprabhu3002@gmail.com</a></p>
       <p>Phone: 9345893539</p>
       <div className="social-links">
-        <a href="https://linkedin.com" target="_blank" rel="noreferrer">LinkedIn</a>
-        <a href="https://github.com" target="_blank" rel="noreferrer">GitHub (soon!)</a>
-      </div>
+  <a href="https://github.com/Manikandaprabhu-dev" target="_blank" rel="noreferrer">
+    <i className="fab fa-github"></i> GitHub
+  </a>
+  <a href="https://www.linkedin.com/in/manikanda-prabhu-253437287?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noreferrer">
+    <i className="fab fa-linkedin"></i> LinkedIn
+  </a>
+</div>
     </section>
   );
 };
